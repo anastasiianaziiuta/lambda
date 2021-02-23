@@ -1,0 +1,26 @@
+.footer {
+    height: 320px;
+    background-color: #191919;
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__items {
+        margin-top: 63px;
+        max-width: 343px;
+    }
+    &__about-text {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+        font-weight: normal;
+        text-align: center;
+        color: #ffffff;
+        span {
+            font-weight: bold;
+        }
+    }
+    &__social {
+        margin: 56px 118px;
+        
+    }
+}
