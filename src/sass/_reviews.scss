@@ -1,0 +1,50 @@
+.reviews {
+    height: 758px;
+    background: url('../images/bg/bg_third.jpg') center (center / cover) no-repeat;
+    &--pos {
+        padding-top: 100px;
+    }
+    &__block {
+        position: relative;
+        margin: 0 auto;
+        padding: 82px 74px;
+        width: 770px;
+        height: 557px;
+        border: solid 0.1px #fbf7c0;
+        background-color: rgba(0, 0, 0, 0.67);
+    }
+    &__title {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    &__mark {
+        position: absolute;
+        top: 170px;
+        left: 31px;
+        font-family: 'Gentium Basic', sans-serif;
+        font-size: 96px;
+        font-weight: normal;
+        text-align: left;
+        opacity: 0.5;
+        color: #f2f4f4;
+    }
+    &__content {
+        margin-top: 187px;
+    }
+    &__text {
+        font-family: 'Lato', sans-serif;
+        font-size: 18px;
+        font-weight: normal;
+        color: #ffffff;
+        text-align: center;
+    }
+    &__author {
+        margin-top: 25px;
+        font-family: 'Lato', sans-serif;
+        font-size: 15px;
+        font-weight: normal;
+        color: #ffffff;
+        text-align: center;
+    }
+}
