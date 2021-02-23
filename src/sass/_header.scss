@@ -80,5 +80,10 @@
     transition: all 0.2s;
     &:hover {
         transform: skew(-10deg);
+        color: #ffffff;
+    }
+    a {
+        text-decoration: none;
+        color: #ffffff;
     }
 }

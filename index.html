@@ -8,6 +8,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Gentium+Book+Basic:wght@700&family=Lato&family=Yeseva+One&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.compat.css"
+  />
     <link rel="stylesheet" href="src/css/style.min.css">
     <title>Lambda</title>
 </head>
@@ -21,19 +25,19 @@
                             <a class="header__menu-link" href="#">Home</a>
                         </li>
                         <li class="header__menu-item">
-                            <a class="header__menu-link" href="#">About</a>
+                            <a class="header__menu-link" href="#about">About</a>
                         </li>
                         <li class="header__menu-item">
-                            <a class="header__menu-link" href="#">Igredients</a>
+                            <a class="header__menu-link" href="#ingrid">Igredients</a>
                         </li>
                         <li class="header__menu-item">
-                            <a class="header__menu-link" href="#">Menu</a>
+                            <a class="header__menu-link" href="#menu">Menu</a>
                         </li>
                         <li class="header__menu-item">
-                            <a class="header__menu-link" href="#">Reviews</a>
+                            <a class="header__menu-link" href="#reviews">Reviews</a>
                         </li>
                         <li class="header__menu-item">
-                            <a class="header__menu-link" href="#">Reservations</a>
+                            <a class="header__menu-link" href="#booking">Reservations</a>
                         </li>
                     </ul>
                     <div class="header__social">
@@ -44,15 +48,15 @@
                 </nav>
                 <h1 class="header__title">the right ingredients <br> for the right food</h1>
                 <img  class="header__line" src="src/icons/white_line.png" alt="line">
-                <div class="button header__btn-black">BOOK A TABLE</div>
-                <div class="button header__btn-white">SEE THE MENU</div>
+                <div class="button header__btn-black"> <a href="#booking"> BOOK A TABLE</a></div>
+                <div class="button header__btn-white"> <a href="#menu"> SEE THE MENU</a></div>
             </div>
     </header>
 
-    <section class="about">
+    <section class="about" id="about">
         <div class="container">
             <div class="about__wrapper">
-                <div class="about__text">
+                <div class="about__text wow zoomIn">
                     <div class="title">
                         <h2 class="title__text">Just the right food</h2>
                         <img class="title__line" src="src/icons/line.png" alt="line">
@@ -67,7 +71,7 @@
         </div>
     </section>
 
-    <section class="ingrid">
+    <section class="ingrid" id="ingrid">
         <div class="container">
             <div class="ingrid__descr">
                 <div class="title">
@@ -86,7 +90,7 @@
         </div>
     </section>
 
-    <section class="menu">
+    <section class="menu" id="menu">
         <div class="container">
             <div class="menu__wrapper">
                 <div class="menu__items">
@@ -189,7 +193,7 @@
         </div>
     </section>
 
-    <section class="reviews reviews--pos">
+    <section class="reviews reviews--pos" id="reviews">
         <div class="container">
             <div class="reviews__block">
                 <div class="title reviews__title">
@@ -207,7 +211,7 @@
         </div>
     </section>
 
-    <section class="booking">
+    <section class="booking" id="booking">
         <div class="container">
             <div class="booking__wrapper">
                 <div class="booking__images">
@@ -290,5 +294,12 @@
             </div>
         </div>
     </footer>
+
+    <a href="#" class="pageup js-pageup">
+        <img src="src/icons/arrow.svg" alt="up">
+    </a>
+
+    <script src="src/js/wow.min.js"></script>  
+    <script src="src/js/script.js"></script>
 </body>
 </html>
