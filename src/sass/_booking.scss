@@ -1,0 +1,65 @@
+.booking {
+    min-height: 708px;
+    background: url('../images/bg/about.jpg') center (center / cover) no-repeat;
+    &__wrapper {
+        display: flex;
+        justify-content: space-around;
+    }
+    &__images {
+        margin-top: 100px;
+        max-width: 570px;
+    }
+    &__img {
+        display: block;
+        margin-right: 30px;
+    }
+    &__descr {
+        margin-top: 102px;
+        max-width: 430px;
+    }
+    &__text {
+        margin-top: 32px;
+        font-family: 'Lato' sans-serif;
+        font-size: 16px;
+        font-weight: normal;
+        text-align: center;
+        color: #4c4c4c;
+    }
+    &__form {
+        margin-top: 46px;
+        width: 100%;
+        form{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+            input {
+                display: inline-block;
+                width: 40%;
+                margin-top: 47px;
+            }
+            select {
+                margin-top: 47px;
+            }
+            input[type="submit"] {
+                width: 200px;
+                height: 36px;
+                border: solid 1px #c89f2d;
+                background-color: #c89f2d;
+                font-family: 'Open Sans', sans-serif;
+                font-size: 16px;
+                text-align: center;
+                color: #ffffff;
+                outline: none !important;
+            }
+        }
+
+    }
+    &__form-text {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+        text-align: left;
+        color: #c9a131;
+    }
+}
