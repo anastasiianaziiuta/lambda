@@ -32,6 +32,9 @@
         font-size: 36px;
         text-align: center;
         color: $main-color;
+        &--color {
+            color: #ffff;
+        }
     }
     &__line {
         display: block;
