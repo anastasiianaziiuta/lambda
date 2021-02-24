@@ -7,15 +7,20 @@
     }
     &__images {
         margin-top: 100px;
-        max-width: 570px;
+        width: 50%;
+        display: flex;
+        justify-content: space-around;
     }
     &__img {
         display: block;
         margin-right: 30px;
+        width: 50%;
+        margin-right: 5px;
     }
     &__descr {
         margin-top: 102px;
-        max-width: 430px;
+        width: 50%;
+        margin-left: 10px;
     }
     &__text {
         margin-top: 32px;
