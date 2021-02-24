@@ -1,6 +1,12 @@
 .header {
     height: 750px;
     background: url('../images/bg/bg_header.jpg') center (center / cover) no-repeat;
+    &__close {
+        display: none;
+    }
+    &__menu-min {
+        display: none;
+    }
     &__logo {
         width: 128px;
         height: 92px;
